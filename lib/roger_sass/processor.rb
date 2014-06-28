@@ -1,3 +1,5 @@
+require 'roger/release'
+
 module RogerSass
   class Processor < Roger::Release::Processors::Base
     # @param [Hash] options Options as described below, all other options will be passed to Sass.compile_file.
